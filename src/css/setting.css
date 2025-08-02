@@ -2,6 +2,25 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: Poppins;
+    src: url("../../public/fonts/Poppins-Medium.eot");
+    src: url("../../public/fonts/Poppins-Medium.ttf");
+    src: url("../../public/fonts/Poppins-Medium.woff");
+    src: url("../../public/fonts/Poppins-Medium.woff2");
+}
+@font-face {
+    font-family: Manrope;
+    src: url("../../public/fonts/Manrope-ExtraLight.eot");
+    src: url("../../public/fonts/Manrope-ExtraLight.ttf");
+    src: url("../../public/fonts/Manrope-ExtraLight.woff");
+    src: url("../../public/fonts/Manrope-ExtraLight.woff2"); 
+}
 #app{
     width: 100%;
+}
+:root{
+    --mainBgColor:#1C1E53;
+    --mainTextColor:#BBBBCB;
+    --secondTextColor:#1B1C2B;
 }

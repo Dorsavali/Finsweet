@@ -1,0 +1,32 @@
+.homeHero {
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 80px;
+    box-sizing: border-box;
+    gap:60px;
+    .info {
+      .title {
+        font-size: 54px;
+        text-align: left;
+      }
+      .description {
+        font-size: 16px;
+        text-align: left;
+      }
+      .buttons {
+        width: 100%;
+        flex-flow: row nowrap;
+        justify-content: start;
+        gap: 40px;
+        button {
+          padding: 16px 56px;
+          font-size: 18px;
+          &:hover {
+          }
+        }
+        a {
+        }
+      }
+    }
+  }
+  
