@@ -1,13 +1,14 @@
 .homeHero {
     flex-flow: row nowrap;
     align-items: center;
-    padding: 80px;
+    padding: 126px 160px;
     box-sizing: border-box;
     gap:60px;
     .info {
       .title {
         font-size: 54px;
         text-align: left;
+        line-height: 74px ;
       }
       .description {
         font-size: 16px;

@@ -1,0 +1,38 @@
+.work {
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 80px;
+    box-sizing: border-box;
+    gap: 142px;
+    .info {
+        align-items: start;
+        gap: 16px;
+      .title {
+        font-size: 48px;
+      }
+      .description {
+        font-size: 16px;
+        text-align: left;
+      }
+  
+      a {
+        font-weight: 500;
+      }
+    }
+    .boxes {
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(2, 1fr);
+      .box {
+          border-bottom: unset;
+          gap: 10px;
+        .title {
+          font-size: 32px;
+        }
+        .description {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  
