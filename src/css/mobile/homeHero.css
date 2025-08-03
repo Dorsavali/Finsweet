@@ -4,7 +4,7 @@
   display: flex;
   flex-flow: row-reverse wrap;
   justify-content: center;
-  padding: 50px;
+  padding:50px;
   box-sizing: border-box;
   gap: 30px;;
   .info {

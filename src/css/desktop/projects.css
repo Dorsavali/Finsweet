@@ -1,0 +1,71 @@
+.projects {
+  padding: 128px 160px;
+  justify-content: start;
+  .top {
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-bottom: 64px;
+    .title {
+      font-size: 48px;
+    }
+    a {
+      font-size: 16px;
+      gap: 14px;
+    }
+  }
+  .bottom {
+    flex-flow: row nowrap;
+    align-items: start;
+    justify-content: left;
+    gap: 32px;
+    .projectGroup {
+      display: flex;
+      gap: 20px;
+      flex-flow: column nowrap;
+    }
+    .project {
+      &:hover {
+        .content,
+        .content2 {
+        }
+      }
+      img {
+      }
+      .content {
+        width: 50%;
+        justify-content: end;
+        align-items: end;
+        padding: 40px;
+        padding-top: 300px;
+        display: none;
+        gap: 47px;
+        .texts {
+          .title {
+            font-size: 24px;
+            line-height: 36px;
+          }
+          .description {
+            font-size: 16px;
+            line-height: 28px;
+            text-align: left;
+          }
+        }
+        a {
+          width: 100%;
+          font-size: 16px;
+          gap: 16px;
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          img {
+            width: 10%;
+          }
+        }
+      }
+      .content2 {
+        height: fit-content;
+      }
+    }
+  }
+}

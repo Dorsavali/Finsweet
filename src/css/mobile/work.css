@@ -4,7 +4,7 @@
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
-  padding: 20px 50px;
+  padding: 50px;
   box-sizing: border-box;
   gap: 20px;
   .info {

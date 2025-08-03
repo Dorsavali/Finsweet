@@ -2,7 +2,7 @@
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: start;
-    padding: 80px;
+    padding: 128px 160px;
     box-sizing: border-box;
     gap: 142px;
     .info {

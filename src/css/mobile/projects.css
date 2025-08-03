@@ -1,0 +1,113 @@
+.projects {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding:20px 50px;
+  box-sizing: border-box;
+  .top {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    .title {
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 64px;
+      letter-spacing: 0%;
+      color: #282938;
+    }
+    a {
+      text-decoration: none;
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 28px;
+      letter-spacing: 0%;
+      color: #282938;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+  }
+  .bottom {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .project {
+        position: relative;
+        transition: 500ms;
+        cursor: pointer;
+        &:hover{
+         .content,.content2{
+            display: flex;
+            top: 0;
+            transition-delay: 100ms;
+         }
+        }
+      img {
+        width: 100%;
+      }
+      .content,.content2 {
+        position: absolute;
+        background: linear-gradient(#1c1e53, #1c1e536b);
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+        display: none;
+        .texts {
+          display: flex;
+          flex-flow: column nowrap;
+          gap: 16px;
+          align-items: center;
+          .title {
+            font-family: Poppins;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 64px;
+            letter-spacing: 0%;
+            color: white;
+          }
+          .description {
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 28px;
+            letter-spacing: 0%;
+            color: white;
+            opacity: 80%;
+            text-align: center;
+          }
+        }
+        a {
+          text-decoration: none;
+          font-family: Poppins;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 28px;
+          letter-spacing: 0%;
+          color: #fcd980;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 6px;
+          img {
+            width: 20%;
+          }
+        }
+      }
+      .content2{
+        gap: 135px;
+        width: 100%;
+      }
+    }
+  }
+}
