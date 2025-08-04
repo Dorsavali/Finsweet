@@ -2,14 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finsweet</title>
     <link
       rel="shortcut icon"
       href="./public/images/essentials/favicon.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
   </head>
   <body>
     <div id="app">
@@ -252,9 +251,121 @@
       <!--end features-->
 
       <!--testimonials-->
-
+      <div class="testimonials">
+        <div class="heading">
+         <div class="title">
+          What our clients say about us
+         </div>
+         <div class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
+         </div>
+        </div>
+        <div class="content">
+          <div class="swiper opinion">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="text">
+                  "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."
+                </div>
+                <div class="profile">
+                  <img src="./public/images/testimonials/profile.png" alt="profile">
+                  <div class="info">
+                  <div class="name">
+                    Jenny Wilson
+                  </div>
+                  <div class="job">
+                    Vice President
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="text">
+                  "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."
+                </div>
+                <div class="profile">
+                  <img src="./public/images/testimonials/profile.png" alt="profile">
+                  <div class="info">
+                  <div class="name">
+                    Jenny Wilson
+                  </div>
+                  <div class="job">
+                    Vice President
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="text">
+                  "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."
+                </div>
+                <div class="profile">
+                  <img src="./public/images/testimonials/profile.png" alt="profile">
+                  <div class="info">
+                  <div class="name">
+                    Jenny Wilson
+                  </div>
+                  <div class="job">
+                    Vice President
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="text">
+                  "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."
+                </div>
+                <div class="profile">
+                  <img src="./public/images/testimonials/profile.png" alt="profile">
+                  <div class="info">
+                  <div class="name">
+                    Jenny Wilson
+                  </div>
+                  <div class="job">
+                    Vice President
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="text">
+                  "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."
+                </div>
+                <div class="profile">
+                  <img src="./public/images/testimonials/profile.png" alt="profile">
+                  <div class="info">
+                  <div class="name">
+                    Jenny Wilson
+                  </div>
+                  <div class="job">
+                    Vice President
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
       <!--end testimonials-->
     </div>
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".opinion", {
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
     <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>

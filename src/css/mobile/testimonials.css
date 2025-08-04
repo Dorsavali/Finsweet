@@ -1,0 +1,120 @@
+.testimonials {
+  background-color: #f4f6fc50;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 50px;
+  box-sizing: border-box;
+  .heading {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    .title {
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 56px;
+      letter-spacing: 0%;
+    }
+    .description {
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 28px;
+      letter-spacing: 0%;
+      text-align: center;
+    }
+  }
+  .content {
+    width: 100%;
+    background-color: #f4f6fc50;
+    .swiper {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column nowrap;
+      gap: 15px;
+      padding: 45px;
+      box-sizing: border-box;
+      .text {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0%;
+        color: #282938;
+      }
+      .profile {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 5px;
+        img {
+          width: 25%;
+          border-radius: 50%;
+        }
+        .info {
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          align-items: center;
+          gap: 3px;
+          .name {
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 14px;
+          }
+          .job {
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+      position: absolute;
+      top: 85%;
+      width: 10%;
+      height: 18%;
+      transition: 500ms;
+      text-align: center;
+      background-color: rgb(255, 255, 255);
+      border-radius: 50%;
+      &::after {
+        color: #282938;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      &:hover {
+        background-color: #5239fa;
+        &::after {
+          color: white;
+          font-size: 16px;
+          font-weight: bold;
+        }
+      }
+    }
+    .swiper-button-prev {
+      left: 75%;
+    }
+  }
+}

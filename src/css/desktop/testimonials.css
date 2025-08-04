@@ -1,0 +1,65 @@
+.testimonials {
+    flex-flow: row nowrap;
+    gap: unset;
+    padding: 128px 160px;
+    .heading {
+      gap: 16px;
+      .title {
+        font-size: 38px;
+      }
+      .description {
+        font-size: 16px;
+        text-align: left;
+      }
+    }
+    .content {
+        width: 70%;
+      .swiper {
+      }
+      .swiper-slide {
+        gap: 48px;
+        padding: unset;
+       align-items: start;
+        .text {
+          font-size: 32px;
+          line-height: 48px;
+        }
+        .profile {
+            gap: 10px;
+          img {
+          }
+          .info {
+            gap:unset;
+            .name {
+              font-size: 18px;
+              line-height: 32px;
+            }
+            .job {
+                line-height: 28px;
+            }
+          }
+        }
+      }
+  
+      .swiper-slide img {
+
+      }
+      .swiper-button-next ,.swiper-button-prev{
+          width: 6%;
+          height: 20%;
+          &::after{
+
+          }
+          &:hover{
+
+            &::after{
+
+            }
+          }
+      }
+      .swiper-button-prev{
+       left: 85%;
+      }
+    }
+  }
+  
