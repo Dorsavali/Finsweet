@@ -1,0 +1,42 @@
+.aboutHero {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px;
+  box-sizing: border-box;
+  .content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    .texts {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+      .text {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 14px;
+      }
+      .title {
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 25px;
+      }
+    }
+    .description {
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 14px;
+      text-align: justify;
+    }
+  }
+  img{
+    width: 100%;
+  }
+}

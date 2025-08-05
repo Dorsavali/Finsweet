@@ -16,9 +16,10 @@
     grid-row-gap: 32px;
     grid-column-gap: 24px;
     .card {
+      justify-content: space-evenly;
       align-items: start;
       background-color: white;
-      padding: 48px 45px;
+      padding: 48px 35px;
       box-sizing: border-box;
       gap: 20px;
       .titleCard {

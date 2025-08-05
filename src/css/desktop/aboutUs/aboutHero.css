@@ -1,0 +1,28 @@
+.aboutHero {
+    flex-flow: row nowrap;
+    gap: 138px;
+    padding: 128px 160px;
+    .content {
+      align-items: start;
+      gap: 30px;
+      .texts {
+        align-items: start;
+        gap: 8px;
+        .text {
+          font-size: 18px;
+          line-height: 32px;
+        }
+        .title {
+          font-size: 54px;
+          line-height: 74px;
+        }
+      }
+      .description {
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+    img{
+    }
+  }
+  

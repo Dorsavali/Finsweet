@@ -1,6 +1,10 @@
-@import url("./menu.css");
-@import url("./homeHero.css");
-@import url("./work.css");
-@import url("./projects.css");
-@import url("features.css");
-@import url("./testimonials.css");
+@import url("./home/menu.css");
+@import url("./home/homeHero.css");
+@import url("./home/work.css");
+@import url("./home/projects.css");
+@import url("./home/features.css");
+@import url("./home/testimonials.css");
+
+@import url("./aboutUs/menu.css");
+@import url("./aboutUs/aboutHero.css");
+@import url("./aboutUs/whoWe.css");
