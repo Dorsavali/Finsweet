@@ -1,0 +1,30 @@
+.process {
+  gap: 60px;
+  padding: 128px 160px;
+  .title {
+    font-size: 48px;
+    line-height: 64px;
+  }
+  .cards {
+    justify-content: space-between;
+    gap: 32px;
+    .card {
+        width: 22%;
+      gap: 32px;
+      .lineAndicon {
+        gap: 10px;
+      }
+      .info {
+        gap: 8px;
+        .subject {
+          line-height: 36px;
+          font-size: 24px;
+
+        }
+        .text {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
