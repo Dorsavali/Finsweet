@@ -1,0 +1,91 @@
+footer {
+width: 100%;
+  .footer {
+    align-items: start;
+    gap: 30px;
+    padding-top: 96px;
+    padding-right: 340px;
+    padding-left: 160px;
+    box-sizing: border-box;
+
+    .content {
+      flex-flow: row nowrap;
+      gap: 280px;
+      justify-content: start;
+      padding: unset;
+      
+      .left {
+        gap: 25px;
+        
+        img {
+          width: 100%;
+        }
+        .caption {
+          font-size: 16px;
+        }
+      }
+      .right {
+        gap: 14px;
+        .title {
+          font-size: 48px;
+          line-height: 64px;
+        }
+        .text {
+          line-height: 28px;
+          font-size: 16px;
+        }
+      }
+    }
+    .contactInfo {
+      width: fit-content;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      padding-right: 137px;
+      padding-left: 37px;
+      .email {
+        gap: 1px;
+        align-items: start;
+        .subject {
+          font-size: 18px;
+        }
+        .address {
+          font-size: 16px;
+        }
+      }
+      .call {
+        gap: 1px;
+        align-items: start;
+        
+        .callUs {
+          font-size: 18px;
+        }
+        .number {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .footerLinks {
+    padding: 32px 160px;
+    box-sizing: border-box;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    .copyright {
+      font-size: 16px;
+    }
+    .footerMenu {
+      nav {
+        ul {
+          li {
+            a {
+              font-size: 14px;
+              &:hover {
+                color: gold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

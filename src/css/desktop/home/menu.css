@@ -5,7 +5,7 @@ label[for="show"] {
 header {
   width: 100%;
   height: unset;
-  padding: 16px 120px;
+  padding: 16px 100px;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
@@ -48,8 +48,8 @@ header {
     .contactBtn {
 
         button {
-          padding: 10px 40px;
-          font-size: 16px;
+          padding: 10px 18px;
+          font-size: 14px;
           line-height: 28px;
           &:hover {
           }

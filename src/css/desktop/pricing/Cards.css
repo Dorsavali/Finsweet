@@ -1,0 +1,64 @@
+.cards {
+  padding: 64px 159px;
+  .pricingCards {
+  width: 378px;
+    .top {
+
+      .priceText {
+        .price {
+
+          &.dark{
+
+          }
+        }
+        .month {
+          
+          &.dark{
+            
+          }
+        }
+        
+      }
+      .text {
+        
+        .title {
+         &.dark{
+          }
+        }
+        .description {
+          &.dark{
+          }
+        }
+      }
+    }
+    .middle {
+      ul {
+        li {
+          &.dark{
+          }
+          &.disabled {
+            svg {
+             }
+          }
+          &.none{
+          }
+          &.none-light{
+          }
+        }
+      }
+    }
+    .bottom {
+      button {
+        &:hover {
+        }
+        &.color {
+          &:hover{
+          }
+        }
+      }
+    }
+    &.background {
+    
+    }
+  }
+}

@@ -92,7 +92,7 @@
     .swiper-button-prev {
       position: absolute;
       top: 80%;
-border-radius: 50%;
+      border-radius: 50%;
       box-sizing: border-box;
       transition: 500ms;
       text-align: center;
@@ -100,7 +100,7 @@ border-radius: 50%;
       padding: 20px;
       &::after {
         color: #282938;
-        font-size:12px;
+        font-size: 12px;
         font-weight: bold;
       }
       &:hover {
@@ -113,7 +113,12 @@ border-radius: 50%;
       }
     }
     .swiper-button-prev {
-      left: 75%;
+      right: calc(16% + 20px); 
+      left: auto;
+    }
+    .swiper-button-next {
+      right: calc(2% + 20px); 
+      left: auto;
     }
   }
 }

@@ -20,7 +20,7 @@
         justify-content: start;
         gap: 40px;
         button {
-          padding: 16px 56px;
+          padding: 16px 48px;
           font-size: 18px;
           &:hover {
           }

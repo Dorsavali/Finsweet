@@ -14,10 +14,11 @@
     color: #282938;
   }
   .profiles {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    grid-row-gap: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
     .profile {
       display: flex;
       flex-flow: column nowrap;

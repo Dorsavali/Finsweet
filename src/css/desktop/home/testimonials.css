@@ -46,7 +46,7 @@
 
       }
       .swiper-button-next ,.swiper-button-prev{
-        padding:  30px;
+        padding:  20px;
         top: 80%;
           &::after{
 
@@ -58,8 +58,13 @@
             }
           }
       }
-      .swiper-button-prev{
-       left: 80%;
+      .swiper-button-prev {
+        right: calc(8% + 30px); 
+        left: auto;
+      }
+      .swiper-button-next {
+        right: calc(0% + 30px);
+        left: auto;
       }
     }
   }

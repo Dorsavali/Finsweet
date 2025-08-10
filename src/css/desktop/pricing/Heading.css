@@ -1,0 +1,15 @@
+.pricingHeading {
+padding-top: 160px;
+padding-left: 128px;
+padding-right: 128px;
+  .text {
+    padding-left: 350px;
+    padding-right: 350px;
+    .title {
+      font-size: 48px;
+    }
+    .description {
+      font-size: 16px;
+    }
+  }
+}

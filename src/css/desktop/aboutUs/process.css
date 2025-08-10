@@ -9,7 +9,7 @@
     justify-content: space-between;
     gap: 32px;
     .card {
-        width: 22%;
+      width: 22%;
       gap: 32px;
       .lineAndicon {
         gap: 10px;
@@ -19,7 +19,6 @@
         .subject {
           line-height: 36px;
           font-size: 24px;
-
         }
         .text {
           font-size: 16px;

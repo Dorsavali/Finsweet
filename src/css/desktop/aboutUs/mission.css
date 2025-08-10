@@ -1,29 +1,30 @@
-.mission{
-    gap: 96px;
-    padding: 128px 160px;
-    .top,.bottom{
-        flex-flow: row nowrap;
-        gap: 140px;
-        .textGroup {
-            align-items: start;
-            gap: 16px;
-            .subject {
-              font-size: 16px;
-            }
-            .title {
-              font-size: 38px;
-              line-height: 56px;
-            }
-            .description {
-              font-size: 16px;
-              line-height: 28px;
-            }
-          }
-        img{
-            width: 100%;
-        }
+.mission {
+  gap: 96px;
+  padding: 128px 160px;
+  .top,
+  .bottom {
+    flex-flow: row nowrap;
+    gap: 140px;
+    .textGroup {
+      align-items: start;
+      gap: 16px;
+      .subject {
+        font-size: 16px;
+      }
+      .title {
+        font-size: 38px;
+        line-height: 56px;
+      }
+      .description {
+        font-size: 16px;
+        line-height: 28px;
+      }
     }
-    .bottom{
-        flex-flow: row-reverse nowrap;
+    img {
+      width: 100%;
     }
+  }
+  .bottom {
+    flex-flow: row-reverse nowrap;
+  }
 }

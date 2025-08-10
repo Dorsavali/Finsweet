@@ -6,10 +6,16 @@
 @import url("./home/testimonials.css");
 
 
-@import url("./aboutUs/menu.css");
+
 @import url("./aboutUs/aboutHero.css");
 @import url("./aboutUs/whoWe.css");
 @import url("./aboutUs/process.css");
 @import url("./aboutUs/mission.css");
 @import url("./aboutUs/benefits.css");
 @import url("./aboutUs/team.css");
+@import url("./aboutUs/footer.css");
+
+
+@import url("./pricing/Heading.css");
+@import url("./pricing/Cards.css");
+

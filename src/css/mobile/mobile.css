@@ -12,3 +12,8 @@
 @import url("./aboutUs/mission.css");
 @import url("./aboutUs/benefits.css");
 @import url("./aboutUs/team.css");
+@import url("./aboutUs/footer.css");
+
+
+@import url("./pricing/heading.css");
+@import url("./pricing/cards.css");
