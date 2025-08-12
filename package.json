@@ -12,6 +12,7 @@
     "vite": "^7.0.4"
   },
   "dependencies": {
+    "mdb-ui-kit": "^9.1.0",
     "swiper": "^11.2.10"
   }
 }

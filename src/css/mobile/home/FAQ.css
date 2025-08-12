@@ -1,0 +1,41 @@
+.FAQ {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  box-sizing: border-box;
+  gap: 30px;
+  .FAQheading {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    .title {
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 25px;
+      color: #282938;
+    }
+    .description {
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 16px;
+      color: #2405f2;
+    }
+  }
+  .accordion-item {
+    h2 {
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 24px;
+      color: #2405f2;
+    }
+  }
+  .accordion-header {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+  }
+}
