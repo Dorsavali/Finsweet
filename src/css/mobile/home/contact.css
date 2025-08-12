@@ -1,0 +1,121 @@
+.contact {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  .startConvert {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+    gap: 8px;
+    background: linear-gradient(#1C1E5380, #1C1E5380), url("../../../../public/images/convert/background.jpg");
+    .titleC {
+      text-align: center;
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 25px;
+      color: white;
+    }
+    .description {
+      text-align: center;
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 16px;
+      color: white;
+    }
+  }
+  .form {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #1c1e53;
+    gap: 20px;
+    .text {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      .title {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 20px;
+        color: white;
+      }
+      .description {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 28px;
+        color: white;
+        opacity: 0.7;
+        text-align: center;
+      }
+    }
+    .formItems {
+      width: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      input {
+        width: 100%;
+        text-align: left;
+        border: 1.5px solid #ffffff0d;
+        background-color: transparent;
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 14px;
+        color: #f4f6fc;
+        opacity: 0.5;
+        padding: 18px 0px;
+        padding-left: 32px;
+        box-sizing: border-box;
+      }
+    }
+    .buttons {
+      display: flex;
+      flex-flow: column nowrap;
+      gap: 30px;
+      align-items: center;
+      button {
+        all: unset;
+        background-color: #fcd980;
+        padding: 16px 100px;
+        font-size: 14px;
+        line-height: 28px;
+        border-radius: 41px;
+        font-family: Poppins;
+        font-weight: 500;
+        color: var(--secondTextColor);
+        cursor: pointer;
+        transition: 500ms;
+        &:hover {
+          background-color: white;
+          color: var(--mainBgColor);
+        }
+      }
+      a {
+        text-decoration: none;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+      }
+    }
+  }
+}
