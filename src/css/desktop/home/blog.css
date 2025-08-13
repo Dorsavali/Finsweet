@@ -1,0 +1,40 @@
+.blog {
+  align-items: start;
+  padding: 128px 160px;
+  gap: 64px;
+  .title {
+    font-size: 48px;
+  }
+  .blogCards {
+    flex-flow: row nowrap;
+    align-items: start;
+    gap: 32px;
+    .blogCard {
+      justify-content: start;
+      gap: 32px;
+      img{
+        width: 100%;
+      }
+      .main {
+        align-items: start;
+        .date {
+          font-size: 16px;
+        }
+        .header {
+          font-size: 24px;
+        }
+        .text {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  a {
+
+    width: 100%;
+    font-size: 14px;
+    .svg{
+        width: 10% !important;
+    }
+  }
+}
