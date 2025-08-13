@@ -21,6 +21,7 @@ header {
       nav {
         ul {
           flex-flow: row nowrap;
+          margin-bottom: unset;
           li {
             width: fit-content;
             a {

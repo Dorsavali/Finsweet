@@ -14,7 +14,7 @@
     letter-spacing: 0%;
     text-align: center;
   }
-  .cards {
+  .cardsBenefit {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);

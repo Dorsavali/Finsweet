@@ -25,12 +25,14 @@
       grid-template-rows: repeat(2, 1fr);
       .box {
           border-bottom: unset;
+          align-items: start;
           gap: 10px;
         .title {
           font-size: 32px;
         }
         .description {
           font-size: 16px;
+          text-align: left;
         }
       }
     }
