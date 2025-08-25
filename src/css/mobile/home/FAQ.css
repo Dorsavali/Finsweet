@@ -41,4 +41,7 @@ button{
   line-height: 28px;
 }
   }
+  .collapse {
+    visibility: unset;
+  }
 }

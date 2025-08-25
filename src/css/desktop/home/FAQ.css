@@ -1,26 +1,22 @@
 .FAQ {
-    flex-flow: row nowrap;
-    padding: 128px 160px;
-    gap: 110px;
-    .FAQheading {
-      gap: 16px;
-      align-items: start;
-      .title {
-        font-size: 38px;
-        line-height: 56px;
-      }
-      .description {
-        font-size: 18px;
-        line-height: 32px;
-      }
+  flex-flow: row nowrap;
+  padding: 128px 160px;
+  gap: 110px;
+  .FAQheading {
+    gap: 16px;
+    align-items: start;
+    .title {
+      font-size: 38px;
+      line-height: 56px;
     }
-    .accordion-header {
-      button{
-        font-family: Poppins;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 28px;
-      }
-        }
+    .description {
+      font-size: 18px;
+      line-height: 32px;
+    }
+  }
+  .accordion{width: 70%;}
+  .collapse {
+    visibility: unset;
   }
   
+}
