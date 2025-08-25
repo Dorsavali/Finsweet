@@ -18,28 +18,14 @@
     flex-flow: row nowrap;
     align-items: start;
     justify-content: left;
-    gap: 32px;
-    .projectGroup {
-      display: flex;
-      gap: 20px;
-      flex-flow: column nowrap;
-    }
     .project {
+      width: 100%;
       &:hover {
-        .content,
-        .content2 {
+        .cover {
         }
       }
-      img {
-      }
-      .content {
-        width: 50%;
-        justify-content: end;
-        align-items: end;
-        padding: 40px;
-        padding-top: 300px;
-        display: none;
-        gap: 47px;
+      .cover {
+        padding-top: 200px;
         .texts {
           .title {
             font-size: 24px;
@@ -52,23 +38,50 @@
           }
         }
         a {
-          width: 100%;
-          font-size: 16px;
-          gap: 16px;
-          display: flex;
-          justify-content: start;
-          align-items: center;
           img {
-            width: 10%;
           }
         }
       }
-      .content2 {
-        height: 100%;
-        justify-content: center;
-        align-items: start;
-        gap: unset;
-        font-size: 24px;
+    }
+    .projectGroup {
+      justify-content: start;
+      width: 50%;
+      gap: 11px;
+      .work {
+        &:hover {
+          .cover2 {
+          }
+        }
+        .image {
+          object-fit: contain;
+
+          img {
+          }
+        }
+        .cover2 {
+          padding-top: 120px;
+          .texts {
+            .title {
+              font-size: 24px;
+              line-height: 36px;
+            }
+            .description {
+              font-size: 16px;
+              line-height: 28px;
+              text-align: left;
+            }
+          }
+          a {
+            width: 100%;
+            font-size: 16px;
+            gap: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+            }
+          }
+        }
       }
     }
   }

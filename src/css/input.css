@@ -8,8 +8,6 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-amber-300: oklch(87.9% 0.169 91.605);
-    --color-amber-400: oklch(82.8% 0.189 84.429);
-    --color-amber-500: oklch(76.9% 0.188 70.08);
     --color-zinc-950: oklch(14.1% 0.005 285.823);
     --spacing: 0.25rem;
     --text-2xl: 1.5rem;
@@ -192,29 +190,14 @@
   .hidden {
     display: none;
   }
-  .table {
-    display: table;
-  }
   .h-36 {
     height: calc(var(--spacing) * 36);
-  }
-  .w-5 {
-    width: calc(var(--spacing) * 5);
-  }
-  .w-5\/12 {
-    width: calc(5/12 * 100%);
   }
   .w-full {
     width: 100%;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
-  }
-  .resize {
-    resize: both;
   }
   .list-disc {
     list-style-type: disc;
@@ -248,9 +231,6 @@
   }
   .justify-start {
     justify-content: flex-start;
-  }
-  .gap-1 {
-    gap: calc(var(--spacing) * 1);
   }
   .gap-1\.5 {
     gap: calc(var(--spacing) * 1.5);
@@ -296,23 +276,11 @@
   .bg-\[\#F4F6FC\] {
     background-color: #F4F6FC;
   }
-  .bg-amber-300 {
-    background-color: var(--color-amber-300);
-  }
-  .px-\[270px\] {
-    padding-inline: 270px;
-  }
-  .py-\[18px\] {
-    padding-block: 18px;
-  }
   .pb-32 {
     padding-bottom: calc(var(--spacing) * 32);
   }
   .pb-\[92px\] {
     padding-bottom: 92px;
-  }
-  .pl-8 {
-    padding-left: calc(var(--spacing) * 8);
   }
   .text-center {
     text-align: center;
@@ -367,15 +335,8 @@
   .text-zinc-950 {
     color: var(--color-zinc-950);
   }
-  .underline {
-    text-decoration-line: underline;
-  }
   .opacity-70 {
     opacity: 70%;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .transition {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, visibility, content-visibility, overlay, pointer-events;
@@ -398,16 +359,6 @@
       @media (hover: hover) {
         color: #282938;
       }
-    }
-  }
-  .xs\:flex {
-    @media (width >= 30rem) {
-      display: flex;
-    }
-  }
-  .xs\:w-fit {
-    @media (width >= 30rem) {
-      width: fit-content;
     }
   }
   .xs\:w-full {
@@ -480,54 +431,14 @@
       padding: 15px;
     }
   }
-  .xs\:p-\[20px\] {
-    @media (width >= 30rem) {
-      padding: 20px;
-    }
-  }
-  .xs\:p-\[40px\] {
-    @media (width >= 30rem) {
-      padding: 40px;
-    }
-  }
   .xs\:p-\[50px\] {
     @media (width >= 30rem) {
       padding: 50px;
     }
   }
-  .xs\:p-\[55px\] {
-    @media (width >= 30rem) {
-      padding: 55px;
-    }
-  }
-  .xs\:p-\[115px\] {
-    @media (width >= 30rem) {
-      padding: 115px;
-    }
-  }
-  .xs\:p-\[px\] {
-    @media (width >= 30rem) {
-      padding: px;
-    }
-  }
-  .xs\:p-\[unse\] {
-    @media (width >= 30rem) {
-      padding: unse;
-    }
-  }
-  .xs\:p-\[unset\] {
-    @media (width >= 30rem) {
-      padding: unset;
-    }
-  }
   .xs\:py-3 {
     @media (width >= 30rem) {
       padding-block: calc(var(--spacing) * 3);
-    }
-  }
-  .xs\:pb-32 {
-    @media (width >= 30rem) {
-      padding-bottom: calc(var(--spacing) * 32);
     }
   }
   .xs\:pb-\[50px\] {
@@ -727,13 +638,6 @@
       font-size: 56px;
     }
   }
-  .xl\:xs\:w-3\/4 {
-    @media (width >= 62rem) {
-      @media (width >= 30rem) {
-        width: calc(3/4 * 100%);
-      }
-    }
-  }
 }
 @property --tw-rotate-x {
   syntax: "*";
@@ -768,11 +672,6 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-duration {
   syntax: "*";
   inherits: false;
@@ -788,7 +687,6 @@
       --tw-border-style: solid;
       --tw-leading: initial;
       --tw-font-weight: initial;
-      --tw-outline-style: solid;
       --tw-duration: initial;
     }
   }
