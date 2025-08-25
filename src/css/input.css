@@ -8,8 +8,6 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-amber-400: oklch(82.8% 0.189 84.429);
-    --color-teal-500: oklch(70.4% 0.14 182.503);
-    --color-blue-600: oklch(54.6% 0.245 262.881);
     --spacing: 0.25rem;
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
@@ -191,20 +189,11 @@
   .hidden {
     display: none;
   }
-  .table {
-    display: table;
-  }
   .w-full {
     width: 100%;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
-  }
-  .resize {
-    resize: both;
   }
   .list-disc {
     list-style-type: disc;
@@ -220,9 +209,6 @@
   }
   .flex-nowrap {
     flex-wrap: nowrap;
-  }
-  .flex-wrap {
-    flex-wrap: wrap;
   }
   .items-center {
     align-items: center;
@@ -245,30 +231,14 @@
   .gap-4 {
     gap: calc(var(--spacing) * 4);
   }
-  .gap-6 {
-    gap: calc(var(--spacing) * 6);
-  }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
   }
   .gap-16 {
     gap: calc(var(--spacing) * 16);
   }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
-  }
-  .bg-amber-400 {
-    background-color: var(--color-amber-400);
-  }
   .text-center {
     text-align: center;
-  }
-  .font-\[Po\] {
-    font-family: Po;
-  }
-  .font-\[Popp\] {
-    font-family: Popp;
   }
   .font-\[Poppins\] {
     font-family: Poppins;
@@ -295,27 +265,14 @@
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
   }
-  .text-\[\#28\] {
-    color: #28;
-  }
   .text-\[\#2405f2\] {
     color: #2405f2;
   }
   .text-\[\#282938\] {
     color: #282938;
   }
-  .text-\[\#\] {
-    color: #;
-  }
-  .underline {
-    text-decoration-line: underline;
-  }
   .opacity-70 {
     opacity: 70%;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .transition {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, visibility, content-visibility, overlay, pointer-events;
@@ -370,16 +327,6 @@
   .xs\:p-\[50px\] {
     @media (width >= 30rem) {
       padding: 50px;
-    }
-  }
-  .xs\:py-\[50\] {
-    @media (width >= 30rem) {
-      padding-block: 50;
-    }
-  }
-  .xs\:py-\[50px\] {
-    @media (width >= 30rem) {
-      padding-block: 50px;
     }
   }
   .xs\:pb-\[50px\] {
@@ -443,11 +390,6 @@
       gap: calc(var(--spacing) * 12);
     }
   }
-  .xl\:p-\[380px\] {
-    @media (width >= 62rem) {
-      padding: 380px;
-    }
-  }
   .xl\:px-40 {
     @media (width >= 62rem) {
       padding-inline: calc(var(--spacing) * 40);
@@ -466,11 +408,6 @@
   .xl\:py-8 {
     @media (width >= 62rem) {
       padding-block: calc(var(--spacing) * 8);
-    }
-  }
-  .xl\:py-16 {
-    @media (width >= 62rem) {
-      padding-block: calc(var(--spacing) * 16);
     }
   }
   .xl\:py-32 {
@@ -509,11 +446,6 @@
       font-size: 56px;
     }
   }
-  .xl\:text-\[56\] {
-    @media (width >= 62rem) {
-      color: 56;
-    }
-  }
 }
 @property --tw-rotate-x {
   syntax: "*";
@@ -535,11 +467,6 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-border-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-leading {
   syntax: "*";
   inherits: false;
@@ -547,11 +474,6 @@
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
-}
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
 }
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
@@ -561,10 +483,8 @@
       --tw-rotate-z: initial;
       --tw-skew-x: initial;
       --tw-skew-y: initial;
-      --tw-border-style: solid;
       --tw-leading: initial;
       --tw-font-weight: initial;
-      --tw-outline-style: solid;
     }
   }
 }
