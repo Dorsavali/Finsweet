@@ -192,23 +192,14 @@
   .hidden {
     display: none;
   }
-  .table {
-    display: table;
-  }
   .h-36 {
     height: calc(var(--spacing) * 36);
   }
   .w-full {
     width: 100%;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
-  }
-  .resize {
-    resize: both;
   }
   .list-disc {
     list-style-type: disc;
@@ -243,9 +234,6 @@
   .justify-start {
     justify-content: flex-start;
   }
-  .gap-1 {
-    gap: calc(var(--spacing) * 1);
-  }
   .gap-1\.5 {
     gap: calc(var(--spacing) * 1.5);
   }
@@ -263,9 +251,6 @@
   }
   .gap-16 {
     gap: calc(var(--spacing) * 16);
-  }
-  .gap-42 {
-    gap: calc(var(--spacing) * 42);
   }
   .rounded-\[8px\] {
     border-radius: 8px;
@@ -293,12 +278,6 @@
   .bg-\[\#F4F6FC\] {
     background-color: #F4F6FC;
   }
-  .bg-amber-200 {
-    background-color: var(--color-amber-200);
-  }
-  .bg-amber-500 {
-    background-color: var(--color-amber-500);
-  }
   .pb-32 {
     padding-bottom: calc(var(--spacing) * 32);
   }
@@ -307,12 +286,6 @@
   }
   .text-center {
     text-align: center;
-  }
-  .text-justify {
-    text-align: justify;
-  }
-  .text-left {
-    text-align: left;
   }
   .font-\[Manrope\] {
     font-family: Manrope;
@@ -364,15 +337,8 @@
   .text-zinc-950 {
     color: var(--color-zinc-950);
   }
-  .underline {
-    text-decoration-line: underline;
-  }
   .opacity-70 {
     opacity: 70%;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .transition {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, visibility, content-visibility, overlay, pointer-events;
@@ -457,11 +423,6 @@
       gap: calc(var(--spacing) * 8);
     }
   }
-  .xs\:gap-55 {
-    @media (width >= 24rem) {
-      gap: calc(var(--spacing) * 55);
-    }
-  }
   .xs\:p-5 {
     @media (width >= 24rem) {
       padding: calc(var(--spacing) * 5);
@@ -495,6 +456,11 @@
   .xs\:pl-1 {
     @media (width >= 24rem) {
       padding-left: calc(var(--spacing) * 1);
+    }
+  }
+  .xs\:text-left {
+    @media (width >= 24rem) {
+      text-align: left;
     }
   }
   .xs\:text-2xl {
@@ -663,6 +629,11 @@
       padding-left: calc(var(--spacing) * 8);
     }
   }
+  .xl\:text-center {
+    @media (width >= 62rem) {
+      text-align: center;
+    }
+  }
   .xl\:text-5xl {
     @media (width >= 62rem) {
       font-size: var(--text-5xl);
@@ -718,11 +689,6 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-duration {
   syntax: "*";
   inherits: false;
@@ -738,7 +704,6 @@
       --tw-border-style: solid;
       --tw-leading: initial;
       --tw-font-weight: initial;
-      --tw-outline-style: solid;
       --tw-duration: initial;
     }
   }
