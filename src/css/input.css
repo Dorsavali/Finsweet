@@ -7,7 +7,9 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-amber-200: oklch(92.4% 0.12 95.746);
     --color-amber-300: oklch(87.9% 0.169 91.605);
+    --color-amber-500: oklch(76.9% 0.188 70.08);
     --color-zinc-950: oklch(14.1% 0.005 285.823);
     --spacing: 0.25rem;
     --text-2xl: 1.5rem;
@@ -190,14 +192,23 @@
   .hidden {
     display: none;
   }
+  .table {
+    display: table;
+  }
   .h-36 {
     height: calc(var(--spacing) * 36);
   }
   .w-full {
     width: 100%;
   }
+  .border-collapse {
+    border-collapse: collapse;
+  }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+  }
+  .resize {
+    resize: both;
   }
   .list-disc {
     list-style-type: disc;
@@ -232,6 +243,9 @@
   .justify-start {
     justify-content: flex-start;
   }
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
+  }
   .gap-1\.5 {
     gap: calc(var(--spacing) * 1.5);
   }
@@ -249,6 +263,9 @@
   }
   .gap-16 {
     gap: calc(var(--spacing) * 16);
+  }
+  .gap-42 {
+    gap: calc(var(--spacing) * 42);
   }
   .rounded-\[8px\] {
     border-radius: 8px;
@@ -276,6 +293,12 @@
   .bg-\[\#F4F6FC\] {
     background-color: #F4F6FC;
   }
+  .bg-amber-200 {
+    background-color: var(--color-amber-200);
+  }
+  .bg-amber-500 {
+    background-color: var(--color-amber-500);
+  }
   .pb-32 {
     padding-bottom: calc(var(--spacing) * 32);
   }
@@ -284,6 +307,12 @@
   }
   .text-center {
     text-align: center;
+  }
+  .text-justify {
+    text-align: justify;
+  }
+  .text-left {
+    text-align: left;
   }
   .font-\[Manrope\] {
     font-family: Manrope;
@@ -335,8 +364,15 @@
   .text-zinc-950 {
     color: var(--color-zinc-950);
   }
+  .underline {
+    text-decoration-line: underline;
+  }
   .opacity-70 {
     opacity: 70%;
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
   }
   .transition {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, visibility, content-visibility, overlay, pointer-events;
@@ -362,108 +398,118 @@
     }
   }
   .xs\:w-full {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       width: 100%;
     }
   }
   .xs\:grid-cols-1 {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       grid-template-columns: repeat(1, minmax(0, 1fr));
     }
   }
   .xs\:grid-rows-3 {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       grid-template-rows: repeat(3, minmax(0, 1fr));
     }
   }
   .xs\:flex-col {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       flex-direction: column;
     }
   }
   .xs\:items-center {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       align-items: center;
     }
   }
   .xs\:gap-2 {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       gap: calc(var(--spacing) * 2);
     }
   }
   .xs\:gap-3\.5 {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       gap: calc(var(--spacing) * 3.5);
     }
   }
   .xs\:gap-4 {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       gap: calc(var(--spacing) * 4);
     }
   }
   .xs\:gap-5 {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       gap: calc(var(--spacing) * 5);
     }
   }
   .xs\:gap-6 {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       gap: calc(var(--spacing) * 6);
     }
   }
+  .xs\:gap-7 {
+    @media (width >= 24rem) {
+      gap: calc(var(--spacing) * 7);
+    }
+  }
   .xs\:gap-8 {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       gap: calc(var(--spacing) * 8);
     }
   }
+  .xs\:gap-55 {
+    @media (width >= 24rem) {
+      gap: calc(var(--spacing) * 55);
+    }
+  }
   .xs\:p-5 {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       padding: calc(var(--spacing) * 5);
     }
   }
   .xs\:p-\[10px\] {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       padding: 10px;
     }
   }
   .xs\:p-\[15px\] {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       padding: 15px;
     }
   }
   .xs\:p-\[50px\] {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       padding: 50px;
     }
   }
   .xs\:py-3 {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       padding-block: calc(var(--spacing) * 3);
     }
   }
   .xs\:pb-\[50px\] {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       padding-bottom: 50px;
     }
   }
   .xs\:pl-1 {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       padding-left: calc(var(--spacing) * 1);
     }
   }
   .xs\:text-2xl {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       font-size: var(--text-2xl);
       line-height: var(--tw-leading, var(--text-2xl--line-height));
     }
   }
   .xs\:text-\[14px\] {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       font-size: 14px;
     }
   }
   .xs\:text-\[25px\] {
-    @media (width >= 30rem) {
+    @media (width >= 24rem) {
       font-size: 25px;
     }
   }
@@ -672,6 +718,11 @@
   syntax: "*";
   inherits: false;
 }
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @property --tw-duration {
   syntax: "*";
   inherits: false;
@@ -687,6 +738,7 @@
       --tw-border-style: solid;
       --tw-leading: initial;
       --tw-font-weight: initial;
+      --tw-outline-style: solid;
       --tw-duration: initial;
     }
   }

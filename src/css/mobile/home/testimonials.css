@@ -18,14 +18,16 @@
       font-weight: 600;
       font-size: 25px;
       line-height: 56px;
-      letter-spacing: 0%;
+color: #282938;
+text-align: center;
     }
     .description {
       font-family: Poppins;
       font-weight: 400;
       font-size: 12px;
       line-height: 28px;
-      letter-spacing: 0%;
+color: #282938;
+opacity: 70;
       text-align: center;
     }
   }
@@ -51,7 +53,7 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 22px;
-        letter-spacing: 0%;
+  
         color: #282938;
       }
       .profile {

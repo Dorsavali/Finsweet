@@ -129,10 +129,11 @@ footer {
         ul {
           list-style: none;
           display: flex;
-          flex-flow: row nowrap;
+          flex-flow: row wrap;
           justify-content: center;
           align-items: center;
-          gap: 32px;
+          gap: 20px;
+          padding-left: unset;
           li {
             width: fit-content;
             text-align: center;
@@ -144,7 +145,7 @@ footer {
               font-family: Poppins;
               font-weight: 500;
               font-size: 14px;
-              letter-spacing: 0%;
+
               &:hover {
                 color: gold;
               }

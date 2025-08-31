@@ -19,7 +19,7 @@
       font-weight: 500;
       font-size: 12px;
       line-height: 28px;
-      letter-spacing: 0%;
+
       text-align: center;
     }
     .heading {
@@ -27,7 +27,7 @@
       font-weight: 600;
       font-size: 25px;
       line-height: 40px;
-      letter-spacing: 0%;
+     color: #282938;
       text-align: center;
     }
   }
@@ -48,9 +48,9 @@
         .titleCard {
             font-family: Poppins;
             font-weight: 500;
-            font-size: 22px;
+            font-size: 20px;
             line-height: 48px;
-            letter-spacing: 0%;
+
             color: #282938;
           }
           .descriptionCard {
@@ -58,7 +58,7 @@
             font-weight: 400;
             font-size: 14px;
             line-height: 28px;
-            letter-spacing: 0%;
+
             color: #282938;
             opacity: 70%;
             text-align: center;

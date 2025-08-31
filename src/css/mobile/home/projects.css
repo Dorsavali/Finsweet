@@ -17,7 +17,7 @@
       font-weight: 600;
       font-size: 25px;
       line-height: 64px;
-      letter-spacing: 0%;
+
       color: #282938;
     }
     a {
@@ -26,7 +26,7 @@
       font-weight: 500;
       font-size: 14px;
       line-height: 28px;
-      letter-spacing: 0%;
+
       color: #282938;
       display: flex;
       align-items: center;
@@ -69,7 +69,7 @@
             font-weight: 600;
             font-size: 16px;
             line-height: 64px;
-            letter-spacing: 0%;
+      
             color: white;
             padding: 8px;
 
@@ -80,7 +80,7 @@
             font-weight: 400;
             font-size: 12px;
             line-height: 28px;
-            letter-spacing: 0%;
+      
             color: white;
             opacity: 80%;
             text-align: center;
@@ -94,7 +94,7 @@
           font-weight: 500;
           font-size: 14px;
           line-height: 28px;
-          letter-spacing: 0%;
+    
           color: #fcd980;
           display: flex;
           justify-content: center;
@@ -148,7 +148,7 @@
               font-weight: 600;
               font-size: 16px;
               line-height: 64px;
-              letter-spacing: 0%;
+        
               color: white;
               padding: 8px;
 
@@ -159,7 +159,7 @@
               font-weight: 400;
               font-size: 12px;
               line-height: 28px;
-              letter-spacing: 0%;
+        
               color: white;
               opacity: 80%;
               text-align: center;
@@ -173,7 +173,7 @@
             font-weight: 500;
             font-size: 14px;
             line-height: 28px;
-            letter-spacing: 0%;
+      
             color: #fcd980;
             display: flex;
             justify-content: center;

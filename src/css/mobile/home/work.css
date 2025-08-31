@@ -18,7 +18,7 @@
       font-weight: 600;
       font-size: 30px;
       line-height: 64px;
-      letter-spacing: 0%;
+
       color: #282938;
       text-align: center;
     }
@@ -27,7 +27,7 @@
       font-weight: 400;
       font-size: 14px;
       line-height: 28px;
-      letter-spacing: 0%;
+
       color: #282938;
       opacity: 70%;
       text-align: center;
@@ -39,7 +39,7 @@
       font-weight: 500;
       font-size: 16px;
       line-height: 28px;
-      letter-spacing: 0%;
+
       color: #2405f2;
       display: flex;
       justify-content: center;
@@ -64,7 +64,7 @@
         font-weight: 500;
         font-size: 25px;
         line-height: 48px;
-        letter-spacing: 0%;
+  
         color: #282938;
       }
       .description {
@@ -72,7 +72,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 28px;
-        letter-spacing: 0%;
+  
         color: #282938;
         opacity: 70%;
         text-align: center;

@@ -18,7 +18,7 @@
       font-weight: 600;
       font-size: 25px;
       line-height: 40px;
-      letter-spacing: 0%;
+
       color: white;
       text-align: center;
     }
@@ -27,14 +27,14 @@
       font-weight: 400;
       font-size: 14px;
       line-height: 28px;
-      letter-spacing: 0%;
+
       color: white;
       opacity: 70%;
       text-align: center;
     }
     .buttons {
       display: flex;
-      flex-flow: row nowrap;
+      flex-flow: column nowrap;
       gap: 35px;
       align-items: center;
       button {
@@ -60,7 +60,7 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 28px;
-        letter-spacing: 0%;
+
         color: white;
         display: flex;
         justify-content: center;
